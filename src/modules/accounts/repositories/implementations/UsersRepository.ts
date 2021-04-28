@@ -20,7 +20,7 @@ class UsersRepository implements IUsersRepository {
       password,
       email,
       driver_license
-    })
+    });
 
     await this.repository.save(user);
   }
